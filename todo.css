@@ -1,0 +1,76 @@
+body {
+	background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.list-group {
+	/*text-align: center;*/
+	margin: 0 auto;
+	/*padding: 12px 110px 12px 110px;*/
+	width: 800px;
+	/*font-family: Roboto;*/
+}
+
+li {
+	background-color: #fff;
+	font-family: 'Work Sans', sans-serif;
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+ 
+span {
+	float: right;
+	font-size: 25px;
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear; 
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+li:hover {
+	color: grey;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	/*font-family: Work Sans;*/
+	font-size: 25px;
+}
+
+input {
+	font-size: 20px;
+}
+
+
+.form-control:focus {
+	background: #fff;
+	border: 1px solid #2980b9;
+	outline: none;	
+}
+
+.second {
+	text-decoration: line-through;
+}
+
+em {
+	float: right;
+	font-size: 25px;
+}
+
